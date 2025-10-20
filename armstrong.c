@@ -21,7 +21,7 @@ void main()
         sum=sum+p;
         num=num/10;
     }    
-//Donot add +1 with sum its just an adjustment not a part of logic of the program.
+//Problem may happen with test case '153'.
         if(sum==n) 
         {
             printf("Armstrong number.");
@@ -31,6 +31,7 @@ void main()
             printf("Not an Armstrong number.");
         }
 }
+//power function.
 int power(int digit,int count)
 {
     int i=1,multi=1;
@@ -39,4 +40,5 @@ int power(int digit,int count)
         multi=multi*digit;
     }
     return multi;
+
 }
