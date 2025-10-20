@@ -13,11 +13,12 @@ void main()
     }
     printf("Enter traget number:\n");
     scanf("%d",&target);
+    //Any one can remove the comment line below and can see the output.
     /*for(i=0;i<num;i++)
     {
         if((pt[i]+pt[i+1])==target)
         {
-            printf("[%d, %d]",i,i+1);//this is not a generalized case.(logic 1)
+            printf("[%d, %d]",i,i+1);       //this is not a generalized case.(logic 1)
         }
     }*/
    for(i=0;i<num;i++)
@@ -25,7 +26,7 @@ void main()
         j=i+1;
         while(j<num)
         {
-            if(pt[j]==target-pt[i])
+            if(pt[j]==target-pt[i])       //This is (logic 2) much more generalized.
             {
                 sum[0]=i;
                 sum[1]=j;
@@ -36,4 +37,5 @@ void main()
     printf("[%d, %d]",sum[0],sum[1]);
     free(pt);
     //return 0;
+
 }
