@@ -16,7 +16,7 @@ void main()
     {
         for(j=0;j<col;j++)
         {
-            scanf("%d",&mat[i][j]);//Entering the elments in the natrix.
+            scanf("%d",&mat[i][j]);//Entering the elments in the matrix.
         }
     }
     printf("The matrix is:\n");
@@ -80,4 +80,5 @@ void main()
     {
         printf("It is not a Magic Square.");
     }
+
 }
