@@ -34,10 +34,11 @@ void main()
         }
         /*The above line display the line written after pressing enter key also.*/
 
-        while(fgets(str,100,pt)!=NULL)    //printing till the termination from the file.
+        while(fgets(str,sizeof(str),pt)!=NULL)    //printing till the termination from the file.
         {
             printf("%s",str);
         }
         fclose(pt);
 }
    
+
