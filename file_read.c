@@ -11,9 +11,10 @@ void main()
             fclose(pt);
             exit(1);
         }
-   while(fgets(ch,400,pt)!=NULL)
+   while(fgets(ch,sizeof(ch),pt)!=NULL)
    {
         printf("%s",ch);//printing the lines from the file
    }
     fclose(pt);
+
 }
