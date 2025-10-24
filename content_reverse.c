@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 void main()
 {
     FILE *pt;
@@ -18,4 +19,5 @@ void main()
     }
     //closing the file.
     fclose(pt);
+
 }
