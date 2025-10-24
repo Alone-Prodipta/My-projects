@@ -22,7 +22,7 @@ int main() {
 
     fp1 = fopen("f1.txt", "r");
     fp2 = fopen("f2.txt", "r");
-    fp3 = fopen("f3.txt", "w");
+    fp3 = fopen("f3.txt", "w");//docking file.
 
     if (fp1 == NULL || fp2 == NULL || fp3 == NULL) {
         printf("Error opening one of the files.\n");
@@ -57,4 +57,5 @@ int main() {
     fclose(fp3);
 
     return 0;
+
 }
