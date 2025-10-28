@@ -1,3 +1,4 @@
+//Calculating the Greatest Common Division of two numbers.
 #include<stdio.h>
 void main()
 {
@@ -6,6 +7,7 @@ void main()
     scanf("%d",&num1);
     printf("Enter any number in number2:\n");
     scanf("%d",&num2);
+    //Checking which number is maximum and minimum.
     if(num1>num2)
     {
         max= num1;
@@ -34,3 +36,4 @@ void main()
         }
     }
 }
+
