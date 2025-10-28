@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
     int num1,temp,num2,rem,max,min;
-    //clrscr();
     printf("Enter any number in number1:\n");
     scanf("%d",&num1);
     printf("Enter any number in number2:\n");
@@ -27,6 +25,7 @@ void main()
             printf("%d",min);
             break;
         }
+        //Swapping the miximum and minimum numbers.
         else
         {
             temp=min;
@@ -34,5 +33,4 @@ void main()
             max=temp;
         }
     }
-    getch();
 }
