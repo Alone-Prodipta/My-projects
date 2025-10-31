@@ -1,3 +1,4 @@
+//This program generates a magic square of an odd size matrix. 
 #include<stdio.h>
 #include<stdlib.h>
 void main()
@@ -57,4 +58,5 @@ void main()
         }
         printf("\n");
     }
+
 }
