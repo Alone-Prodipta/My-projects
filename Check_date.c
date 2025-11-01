@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<conio.h>
 typedef struct 
@@ -80,3 +79,4 @@ i=0,k=0;
             printf("The two dates are not same.");
         }
 }
+
