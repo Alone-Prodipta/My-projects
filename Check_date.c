@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<conio.h>
 typedef struct 
@@ -9,7 +10,6 @@ typedef struct
 void main()
 {
     int i=1,m=0,n=2,k,dd;
-    //clrscr();
     date d1[2];
     for(i=0;i<n;i++)
     {
@@ -79,5 +79,4 @@ i=0,k=0;
         {
             printf("The two dates are not same.");
         }
-        getch();
-    }
+}
