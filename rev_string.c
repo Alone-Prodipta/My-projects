@@ -1,3 +1,4 @@
+//This program is to reverse the word of a sentence without changing the oder of the sentence.
 #include<stdio.h>
 #include<string.h>
 void rev(char *sen);
@@ -75,4 +76,5 @@ int main() {
 
     printf("Reversed words: %s\n", str);
     return 0;
+
 }*/
