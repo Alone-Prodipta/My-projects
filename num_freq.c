@@ -1,3 +1,4 @@
+//counting the duplicate of a number
 #include<stdio.h>
 void main()
 {
@@ -18,7 +19,6 @@ void main()
             if(ar[i]==br[j])
             {
                 flag=1;
-                cnt[j]++;
                 break;
             }
         }
@@ -27,10 +27,13 @@ void main()
             br[k]=ar[i];
             cnt[k++]=1;
         }
+        else
+        {
+            cnt[j]++;
+        }
     }
     for(i=0;i<k;i++)
     {
         printf("%d= %d\n",br[i],cnt[i]);
     }
-
 }
