@@ -43,38 +43,3 @@ void rev(char *sen)
 
 
 
-/*#include <stdio.h>
-
-int main() {
-    char str[] = "hello world from copilot";
-    int i = 0, start = 0, end;
-
-    // Traverse the string
-    while (str[i] != '\0') {
-        // Find the start of a word
-        if (str[i] != ' ') {
-            start = i;
-
-            // Move to the end of the word
-            while (str[i] != ' ' && str[i] != '\0') {
-                i++;
-            }
-            end = i - 1;
-
-            // Reverse the word manually
-            while (start < end) {
-                char temp = str[start];
-                str[start] = str[end];
-                str[end] = temp;
-                start++;
-                end--;
-            }
-        } else {
-            i++; // Skip spaces
-        }
-    }
-
-    printf("Reversed words: %s\n", str);
-    return 0;
-
-}*/
